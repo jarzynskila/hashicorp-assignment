@@ -4,13 +4,44 @@ This document describes how the `git push`, `git pull`, and `git fetch` commands
 
 ### Overview 
 
-The following list provides an overview for each command.
+The following table describes each command.
 
-- `git push` - sends changes from a local branch to a remote repository
-- `git fetch` - gets changes from a remote repository into your tracking branch
-- `git pull` - gets changes from a remote branch into your tracking branch and merges them into a local branch
+<table>
+	<tr>
+		<th>
+			Command
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+	<tr>
+		<td>
+			<code>git push</code>
+		</td>
+		<td>
+			Sends changes from a local branch to a remote repository
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>git fetch</code>
+		</td>
+		<td>
+			Gets changes from a remote repository into your tracking branch
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<code>git pull</code>
+		</td>
+		<td>
+			Gets changes from a remote branch into your tracking branch and merges them into a local branch
+		</td>
+	</tr>
+</table>
 
-For more details, see the follow sections.
+For more details about each command, see the following sections.
 
 ### `git push` 
 
