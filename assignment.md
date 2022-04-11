@@ -1,6 +1,6 @@
 ## About git push, pull, and fetch
 
-This document describes how the `git push`, `git pull`, and `git fetch` commands work.
+This document describes how the `git push`, `git fetch`, and  `git pull` commands work.
 
 ### Overview 
 
