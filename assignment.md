@@ -20,7 +20,7 @@ The following table describes each command.
 			<code>git push</code>
 		</td>
 		<td>
-			Sends changes from your local branch to a remote repository
+			Sends changes from your local branch to a remote branch
 		</td>
 	</tr>
 	<tr>
@@ -28,7 +28,7 @@ The following table describes each command.
 			<code>git fetch</code>
 		</td>
 		<td>
-			Gets changes from a remote repository into your local branch without merging them
+			Gets changes from a remote branch into your local branch without merging them
 		</td>
 	</tr>
 	<tr>
