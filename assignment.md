@@ -1,4 +1,4 @@
-## About git push, pull, and fetch
+## About git push, fetch, and pull
 
 This document describes how the `git push`, `git fetch`, and  `git pull` commands work.
 
