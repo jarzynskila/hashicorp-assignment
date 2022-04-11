@@ -70,7 +70,7 @@ To merge the changes into your local branch, run `git merge origin/BRANCH-NAME`,
 
 `git pull` does the following:
 
-1. Runs `git fetch`. 
-2. Runs `git merge`. 
+1. Runs `git fetch` to get the changes into your local branch without merging. 
+2. Runs `git merge` to update your local branch. 
 
 If you want to review the changes before merging them, you can run `git fetch` instead of `git pull`. Once you review the changes, run `git merge`. 
