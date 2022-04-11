@@ -20,7 +20,7 @@ The following table describes each command.
 			<code>git push</code>
 		</td>
 		<td>
-			Sends changes from a local branch to a remote repository
+			Sends changes from your local branch to a remote repository
 		</td>
 	</tr>
 	<tr>
@@ -36,7 +36,7 @@ The following table describes each command.
 			<code>git pull</code>
 		</td>
 		<td>
-			Gets changes from a remote branch into your local branch and merges them into a local branch
+			Gets changes from a remote branch into your local branch and merges them into your local branch
 		</td>
 	</tr>
 </table>
