@@ -45,12 +45,32 @@ For more details about each command, see the following sections.
 
 ### `git push` 
 
-`git push` checks to see if there is a remote branch that corresponds to your current local branch. If so, it takes your changes from your local branch and pushes them to the remote branch. This is how you share code with a remote repository, you can think of it as "make the remote branch resemble my local branch". This fails if the remote branch has commits that are not in your local branch. When this happens, you must synchronize your local branch with the remote branch with git pull or git fetch and git merge.
+`git push` does the following:
+
+1. Checks for a remote branch that corresponds to your current local branch. 
+
+2. Checks whether the remote branch includes any changes that are not in your local branch. If so, the command fails at this step. To resolve this issue, run `git pull` or the combination of `git fetch` and `git merge` to bring the changes into your local branch.
+
+3. Updates the remote branch with your changes. 
+
+Once `git push` finishes running, your local branch and the remote branch are the same.
+
 
 ### `git fetch` 
 
-`git fetch` checks to see if there is a remote branch that corresponds to your current local branch. If so, it looks for changes in the remote branch, and pulls them into the local branch. It does not change your local branch. To do that, you'll need to do `git merge origin/main` (for the "main" branch) to merge those changes into your local branch - probably also called "main".
+`git fetch` does the following:
+
+1. Checks for a remote branch that corresponds to your current local branch. 
+
+2. Checks for changes in the remote branch. If it finds changes, it brings them into your local branch without merging them. 
+
+To merge the changes into your local branch, run `git merge origin/BRANCH-NAME`, where `BRANCH-NAME` is the name of the remote branch.
 
 ### `git pull` 
 
-`git pull` does a `git fetch` followed immediately by `git merge`. Some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
+`git pull` does the following:
+
+1. Runs `git fetch`. 
+2. Runs `git merge`. 
+
+If you want to review the changes before merging them, you can run `git fetch` instead of `git pull`. Once you review the changes, run `git merge`. 
