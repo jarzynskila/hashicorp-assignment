@@ -28,7 +28,7 @@ The following table describes each command.
 			<code>git fetch</code>
 		</td>
 		<td>
-			Gets changes from a remote repository into your local branch
+			Gets changes from a remote repository into your local branch without merging them
 		</td>
 	</tr>
 	<tr>
