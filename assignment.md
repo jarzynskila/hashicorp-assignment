@@ -74,4 +74,4 @@ To merge the changes into your local branch, run `git merge origin/BRANCH-NAME`,
 1. Runs `git fetch` to get changes into your local branch without merging them. 
 2. Runs `git merge` to update your local branch with the changes. 
 
-After git pull finishes running, your local branch and the remote branch are the same. If you want to review the changes before merging them, you can run `git fetch` instead of `git pull`.
+After git pull finishes running, your local branch and the remote branch are the same. If you want to review the changes before merging them, run `git fetch` instead of `git pull`.
