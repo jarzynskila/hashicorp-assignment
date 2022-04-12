@@ -4,7 +4,7 @@ This document describes how the `git push`, `git fetch`, and  `git pull` command
 
 ### Overview 
 
-The following table describes each command.
+The following table briefly describes each command.
 
 <table>
 	<tr>
